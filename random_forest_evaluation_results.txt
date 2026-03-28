@@ -1,0 +1,25 @@
+RANDOM FOREST EVALUATION RESULTS
+============================================================
+Generated on: 2025-06-13 16:31:04
+
+Loading predictions from: output.csv
+Found 44 prediction features
+Performing Leave-One-Out cross-validation (99 folds)...
+  Fold 10/99: Accuracy=0.0000, F1=0.0000
+  Fold 20/99: Accuracy=1.0000, F1=0.0000
+  Fold 30/99: Accuracy=1.0000, F1=0.0000
+  Fold 40/99: Accuracy=1.0000, F1=0.0000
+  Fold 50/99: Accuracy=1.0000, F1=0.0000
+  Fold 60/99: Accuracy=0.0000, F1=0.0000
+  Fold 70/99: Accuracy=1.0000, F1=1.0000
+  Fold 80/99: Accuracy=1.0000, F1=1.0000
+  Fold 90/99: Accuracy=1.0000, F1=1.0000
+  Fold 99/99: Accuracy=1.0000, F1=1.0000
+
+Random Forest Leave-One-Out Cross-Validation Results:
+  - Average Accuracy: 0.7475 (±0.4345)
+  - Average F1 Score: 0.3636 (±0.4810)
+  - Aggregated Confusion Matrix (rows=true, cols=predicted):
+      C     P
+C  [ 38   12]
+P  [ 13   36]
